@@ -7,11 +7,11 @@
 
   <title>DirW | Directorio Web</title>  
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="Directorio Web">
-	<meta name="author" content="DirW">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="Directorio Web">
+  <meta name="author" content="DirW">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Le styles -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -24,8 +24,8 @@
       padding: 9px 0;
     }
   </style>
-	<link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- Le fav and touch icons -->
   <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -34,7 +34,7 @@
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png" sizes="72x72" >
   <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 
-	<script src="assets/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+  <script src="assets/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
 
 </head>
 <body>
@@ -154,27 +154,27 @@
 
   <script src="assets/js/libs/bootstrap/bootstrap.min.js"></script>
 
-  <script src="assets/js/libs/bootstrap/bootstrap-transition.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-alert.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-modal.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-dropdown.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-scrollspy.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-tab.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-tooltip.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-popover.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-button.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-collapse.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-carousel.js"></script>
-  <script src="assets/js/libs/bootstrap/bootstrap-typeahead.js"></script>
+  <script src="assets/js/libs/bootstrap/transition.js"></script>
+  <script src="assets/js/libs/bootstrap/alert.js"></script>
+  <script src="assets/js/libs/bootstrap/modal.js"></script>
+  <script src="assets/js/libs/bootstrap/dropdown.js"></script>
+  <script src="assets/js/libs/bootstrap/scrollspy.js"></script>
+  <script src="assets/js/libs/bootstrap/tab.js"></script>
+  <script src="assets/js/libs/bootstrap/tooltip.js"></script>
+  <script src="assets/js/libs/bootstrap/popover.js"></script>
+  <script src="assets/js/libs/bootstrap/button.js"></script>
+  <script src="assets/js/libs/bootstrap/collapse.js"></script>
+  <script src="assets/js/libs/bootstrap/carousel.js"></script>
+  <script src="assets/js/libs/bootstrap/typeahead.js"></script>
 
   <script src="assets/js/plugins.js"></script>
   <script src="assets/js/script.js"></script>
 
   <script>
-  	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-  	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-  	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-  	s.parentNode.insertBefore(g,s)}(document,'script'));
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
 
 </body>
