@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Le styles -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <style type="text/css">
     body {
       padding-top: 60px;
@@ -24,8 +24,8 @@
       padding: 9px 0;
     }
   </style>
-  <link rel="stylesheet" href="assets/css/bootstrap-responsive.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="../../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
+  <link href="../../assets/css/style.css" rel="stylesheet" type="text/css">
 
   <!-- Le fav and touch icons -->
   <link rel="shortcut icon" href="assets/ico/favicon.ico">
@@ -55,7 +55,7 @@
           </p>
           <ul class="nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="nuevo oc.html">nuevo oc</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
