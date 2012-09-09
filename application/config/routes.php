@@ -41,6 +41,14 @@
 $route['default_controller'] = "home";
 $route['404_override'] = '';
 
+$route['pedidos'] = 'pedidos';
+$route['pedidos/view'] = 'pedidos/view';
+$route['pedidos/abm'] = 'pedidos/abm';
+$route['oc'] = 'oc';
+$route['oc/view'] = 'oc/view';
+$route['oc/abm'] = 'oc/abm';
+$route['oc/liberar'] = 'oc/liberar';
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
