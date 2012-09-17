@@ -1,5 +1,3 @@
-orden de compra - LIBERAR
-
       <div class="row">
         <div class="span12"><h4>Ordenes de Compra</h4></div>
       </div>  
