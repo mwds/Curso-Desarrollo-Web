@@ -55,86 +55,89 @@
   </div>
 </form>
 
-<table class="table table-bordered">
-  <tr class="info">
-    <td>Código de Producto</td>
-    <td>Producto</td>
-    <td>Descripción</td>
-    <td>Presentación</td>
-    <td>Cantidad</td>
-    <td>Estado</td>
-    <td>Observación</td>
-  </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <div class="input-append">
-          <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
-        </div>
-      </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><input type="text" placeholder=""></td>
-      <td>Generada</td>
-      <td><input type="text" placeholder=""></td>
-    </tr>
-    <tr>
-      <td>
-        <div class="input-append">
-          <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
-        </div>
-      </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><input type="text" placeholder=""></td>
-      <td>Generada</td>
-      <td><input type="text" placeholder=""></td>
-    </tr>
-    <tr>
-      <td>
-        <div class="input-append">
-          <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
-        </div>
-      </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><input type="text" placeholder=""></td>
-      <td>Generada</td>
-      <td><input type="text" placeholder=""></td>
-    </tr>
-    <tr>
-      <td>
-        <div class="input-append">
-          <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
-        </div>
-      </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><input type="text" placeholder=""></td>
-      <td>Generada</td>
-      <td><input type="text" placeholder=""></td>
-    </tr>
-    <tr>
-      <td>
-        <div class="input-append">
-          <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
-        </div>
-      </td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><input type="text" placeholder=""></td>
-      <td>Generada</td>
-      <td><input type="text" placeholder=""></td>
-    </tr>
-  </tbody>
-</table>
-
+<div class="row">
+  <div class="span12">
+    <table class="table table-bordered">
+      <tr class="info">
+        <td>Código de Producto</td>
+        <td>Producto</td>
+        <td>Descripción</td>
+        <td>Presentación</td>
+        <td>Cantidad</td>
+        <td>Estado</td>
+        <td>Observación</td>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="input-append">
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+            </div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><input type="text" placeholder=""></td>
+          <td>Generada</td>
+          <td><input type="text" placeholder=""></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="input-append">
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+            </div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><input type="text" placeholder=""></td>
+          <td>Generada</td>
+          <td><input type="text" placeholder=""></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="input-append">
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+            </div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><input type="text" placeholder=""></td>
+          <td>Generada</td>
+          <td><input type="text" placeholder=""></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="input-append">
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+            </div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><input type="text" placeholder=""></td>
+          <td>Generada</td>
+          <td><input type="text" placeholder=""></td>
+        </tr>
+        <tr>
+          <td>
+            <div class="input-append">
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+            </div>
+          </td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><input type="text" placeholder=""></td>
+          <td>Generada</td>
+          <td><input type="text" placeholder=""></td>
+        </tr>
+      </tbody>
+      </table>
+  </div>
+</div>
 <button class="btn btn-primary" type="submit">Guardar</button>
 <button class="btn" type="button">Cancelar</button>
 </div>
