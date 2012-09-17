@@ -24,11 +24,12 @@
         </div>
       </div>
     </div>
-  <div class="span4">
-    <div class="control-group">
-      <label class="control-label" for="inputEstado">Estado:</label>
-        <div class="controls">
-          <input type="text" id="inputEstado" placeholder="" value="Iniciado">
+    <div class="span4">
+      <div class="control-group">
+        <label class="control-label" for="inputEstado">Estado:</label>
+          <div class="controls">
+            <input type="text" id="inputEstado" placeholder="" value="Iniciado">
+          </div>
         </div>
       </div>
     </div>
@@ -44,14 +45,15 @@
         </div>
       </div>
     </div>
-  <div class="span4">
-    <div class="control-group">
-      <label class="control-label" for="inputOficina">Oficina:</label>
-        <div class="controls">
-          <input type="text" id="inputEstado" placeholder="">
+    <div class="span4">
+      <div class="control-group">
+        <label class="control-label" for="inputOficina">Oficina:</label>
+          <div class="controls">
+            <input type="text" id="inputEstado" placeholder="">
+          </div>
         </div>
       </div>
-    </div>
+  </div>
 </form>
 
 <table class="table table-bordered">
