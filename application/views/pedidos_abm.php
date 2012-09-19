@@ -72,7 +72,7 @@
         <tr>
           <td>
             <div class="input-append">
-              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><button class="btn" type="button"><i class="icon-search"></i></button>
             </div>
           </td>
           <td></td>
@@ -85,7 +85,7 @@
         <tr>
           <td>
             <div class="input-append">
-              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><button class="btn" type="button"><i class="icon-search"></i></button>
             </div>
           </td>
           <td></td>
@@ -98,7 +98,7 @@
         <tr>
           <td>
             <div class="input-append">
-              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><button class="btn" type="button"><i class="icon-search"></i></button>
             </div>
           </td>
           <td></td>
@@ -111,7 +111,7 @@
         <tr>
           <td>
             <div class="input-append">
-              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><button class="btn" type="button"><i class="icon-search"></i></button>
             </div>
           </td>
           <td></td>
@@ -124,7 +124,7 @@
         <tr>
           <td>
             <div class="input-append">
-              <input class="span2" id="inputBuscarProducto" size="16" type="text"><span class="add-on"><i class="icon-search"></i></span>
+              <input class="span2" id="inputBuscarProducto" size="16" type="text"><button class="btn" type="button"><i class="icon-search"></i></button>
             </div>
           </td>
           <td></td>
@@ -138,6 +138,10 @@
       </table>
   </div>
 </div>
-<button class="btn btn-primary" type="submit">Guardar</button>
-<button class="btn" type="button">Cancelar</button>
+<div class="row">
+  <div class="span12">  
+    <button class="btn btn-primary" type="submit">Guardar</button>
+    <button class="btn" type="button">Cancelar</button>
+  </div>
+</div>
 </div>
