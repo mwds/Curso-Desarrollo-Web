@@ -37,18 +37,15 @@
     <div class="row">
       <div class="span12">
         <table class="table table-bordered">
-          <caption>titulo</caption>
-            <thead class="info">
-              <tr>
-                <th></th>
-                <th>Nro. N.P.</th>
-                <th>Fec.Carga</th>
-                <th>Estado</th>
-                <th>Exp. N°</th>
-                <th>Oficina</th>
-                <th>Usuario</th>
-              </tr>
-            </thead>
+          <tr class="info">
+            <td></td>
+            <td>Nro. N.P.</td>
+            <td>Fec.Carga</td>
+            <td>Estado</td>
+            <td>Exp. N°</td>
+            <td>Oficina</td>
+            <td>Usuario</td>
+          </tr>
         <tbody>
           <tr>
               <td>Enviar Consulta</td>
