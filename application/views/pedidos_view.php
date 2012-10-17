@@ -112,7 +112,25 @@
             <td>Con Orden de Compra</td>
             <td></td>
         </tr>
+
+
+				<?php foreach ($pedidos as $pedidos_item): ?>
+
+          <tr>
+              <td><button class="btn" type="button"><i class="icon-edit"></i></button></td>
+              <td><button class="btn" type="button"><i class="icon-print"></i></button></td>
+              <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
+              <td><?php echo $pedidos_item['pedido_id'] ?></td>
+              <td><?php echo $pedidos_item['pedido_name'] ?></td>
+              <td><?php echo $pedidos_item['pedido_estado'] ?></td>
+              <td><a href="pedidos/<?php echo $pedidos_item['pedido_id'] ?>">Ver Pedido</a></td>
+              <td></td>
+          </tr>
+        
+				<?php endforeach ?>
+
     	</table>
     </div>
 </div>
+
                                
