@@ -5,14 +5,14 @@
 		public function __construct()
 		{
 			parent::__construct();
-			$this->load->model('pedidos_model');
+			#$this->load->model('pedidos_model');
 		}
 
     public function index()
     {
       $data['title'] = 'Pedidos | ';
 
-			$data['pedidos'] = $this->pedidos_model->get_pedidos();
+			#$data['pedidos'] = $this->pedidos_model->get_pedidos();
 
       $this->load->view('header', $data);
       $this->load->view('pedidos_view', $data);
@@ -21,7 +21,7 @@
 
 		public function view($slug)
 		{
-			$data['pedidos'] = $this->pedidos_model->get_pedidos($slug);
+			#$data['pedidos'] = $this->pedidos_model->get_pedidos($slug);
 		}
 
     public function abm()

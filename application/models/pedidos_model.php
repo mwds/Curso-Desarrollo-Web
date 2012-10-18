@@ -14,7 +14,7 @@ class Pedidos_model extends CI_Model {
 			return $query->result_array();
 		}
 		
-		$query = $this->db->get_where('pedidos_test', array('pedidos_id' => $slug));
+		$query = $this->db->get_where('pedidos_test', array('pedidos_id' => $pedido_id));
 		return $query->row_array();
 	}
 }	

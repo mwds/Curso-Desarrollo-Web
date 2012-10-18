@@ -50,84 +50,37 @@
 </div>
 <div class="row">
     <div class="span12">
-        <table class="table table-bordered">
-            <tr class="info">
-	            <td></td>
-    	        <td></td>
-        	    <td>O.C.</td>
-            	<td>Cod. Ped.</td>
-            	<td>Fec. Carga</td>
-            	<td>Fec. Vencimiento</td>
-            	<td>Estado</td>
-            	<td>Observación</td>
-          	</tr>
-        <tbody>
-        <tr>
-            <td><button class="btn" type="button"><i class="icon-edit"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-print"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-            <td>45</td>
-            <td>08/09/2011</td>
-            <td>15/09/2011</td>
-            <td>Con Orden de Compra</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><button class="btn" type="button"><i class="icon-edit"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-print"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-            <td>44</td>
-            <td>07/09/2011</td>
-            <td>14/09/2011</td>
-            <td>Con Orden de Compra</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><button class="btn" type="button"><i class="icon-edit"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-print"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-            <td>43</td>
-            <td>07/09/2011</td>
-            <td>14/09/2011</td>
-            <td>Aprobada</td>
-            <td>Pedido de Prueba 2011</td>
-        </tr>
-        <tr>
-            <td><button class="btn" type="button"><i class="icon-edit"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-print"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-            <td>42</td>
-            <td>06/09/2011</td>
-            <td>13/09/2011</td>
-            <td>Aprobada</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td><button class="btn" type="button"><i class="icon-edit"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-print"></i></button></td>
-            <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-            <td>41</td>
-            <td>05/09/2011</td>
-            <td>12/09/2011</td>
-            <td>Con Orden de Compra</td>
-            <td></td>
-        </tr>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr class="info">
+                    <td></td>
+                    <td></td>
+                    <td>O.C.</td>
+                    <td>Cod. Ped.</td>
+                    <td>Fec. Carga</td>
+                    <td>Fec. Vencimiento</td>
+                    <td>Estado</td>
+                    <td>Observación</td>
+                </tr>
+            </thead>
+            <tbody>
 
+        		<?php #foreach ($pedidos as $pedidos_item): ?>
 
-				<?php foreach ($pedidos as $pedidos_item): ?>
-
-          <tr>
-              <td><button class="btn" type="button"><i class="icon-edit"></i></button></td>
-              <td><button class="btn" type="button"><i class="icon-print"></i></button></td>
-              <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-              <td><?php echo $pedidos_item['pedido_id'] ?></td>
-              <td><?php echo $pedidos_item['pedido_name'] ?></td>
-              <td><?php echo $pedidos_item['pedido_estado'] ?></td>
-              <td><a href="pedidos/<?php echo $pedidos_item['pedido_id'] ?>">Ver Pedido</a></td>
-              <td></td>
-          </tr>
-        
-				<?php endforeach ?>
+                  <tr>
+                      <td><button class="btn" type="button"><i class="icon-edit"></i></button></td>
+                      <td><button class="btn" type="button"><i class="icon-print"></i></button></td>
+                      <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
+                      <td><?php #echo $pedidos_item['pedido_id'] ?></td>
+                      <td><?php #echo $pedidos_item['pedido_name'] ?></td>
+                      <td><?php #echo $pedidos_item['pedido_estado'] ?></td>
+                      <td><a href="pedidos/<?php #echo $pedidos_item['pedido_id'] ?>">Ver Pedido</a></td>
+                      <td></td>
+                  </tr>
+                
+        		<?php #endforeach ?>
+            
+            </tbody>
 
     	</table>
     </div>

@@ -19,7 +19,7 @@
         <label class="control-label" for="inputFechaCarga">Fecha de Carga:</label>
         <div class="controls">
           <div class="input-append">
-            <input class="span2" id="inputFechaCarga" size="16" type="text"><span class="add-on"><i class="icon-calendar"></i></span>
+            <input class="span2" id="inputFechaCarga" size="16" type="text" disabled="disabled"><span class="add-on"><i class="icon-calendar"></i></span>
           </div>
         </div>
       </div>
@@ -28,7 +28,7 @@
       <div class="control-group">
         <label class="control-label" for="inputEstado">Estado:</label>
         <div class="controls">
-          <input type="text" id="inputEstado" placeholder="" value="Iniciado">
+          <input type="text" id="inputEstado" placeholder="" value="Iniciado" disabled="disabled">
         </div>
       </div>
     </div>
@@ -48,7 +48,7 @@
       <div class="control-group">
         <label class="control-label" for="inputOficina">Oficina:</label>
           <div class="controls">
-            <input type="text" id="inputEstado" placeholder="">
+            <input type="text" id="inputEstado" placeholder="" disabled="disabled">
           </div>
         </div>
       </div>
