@@ -61,6 +61,7 @@
 <div class="row">
     <div class="span12">
         <table class="table table-bordered table-striped">
+
             <thead>
                 <tr class="info">
                     <td></td>
@@ -70,6 +71,7 @@
                     <td>Estado</td>
                 </tr>
             </thead>
+
             <tbody>
 
         		<?php #foreach ($pedidos as $pedidos_item): ?>
@@ -82,110 +84,131 @@
 	                <td><a href="pedidos/<?php #echo $pedidos_item['pedido_id'] ?>">Ver Pedido</a></td>
 	            </tr>
                 
-        		<?php #endforeach ?>
-            	
-            	<tr>
-            		<td>
-            			<div class="span12">
-	            			<label class="control-label" for="inputobservaciones">Observaciones: </label>
-	            			<textarea rows="3"></textarea>
-	            		</div>
-	            		<br>
-	            		<div class="span2">
-	            			<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Productos</label>
-						</div>
-						<div class="span6">
-							<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Orden de Compra</label>
-						</div>
-						<br>
-					    <table class="table table-bordered table-striped">
-				            <thead>
-				                <tr class="info">
-				                    <td>Nombre</td>
-				                    <td>Presentación</td>
-				                    <td>Cantidad</td>
-				                </tr>
-				            </thead>
-				            <tbody>
-				            	<tr>
-				                	<td></td>
-				                	<td></td>
-				                	<td></td>
-				            	</tr>
-		            		</tbody>
-		            	</table>
-					    <table class="table table-bordered table-striped">
-				            <thead>
-				                <tr class="info">
-				                    <td></td>
-				                    <td>Nro O.C.</td>
-				                    <td>Proveedor</td>
-				                    <td>Total</td>
-				                    <td>Usuario</td>
-				                </tr>
-				            </thead>
-				            <tbody>
-				            	<tr>
-				                	<td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-				                	<td>0010</td>
-				                	<td>Chanchito S.A.</td>
-				                	<td>13,69</td>
-				                	<td>Auil Jorge Gilberto</td>
-				            	</tr>
-				            	<tr>
-				            		<td>
-									    <table class="table table-bordered table-striped">
-								            <thead>
-								                <tr class="info">
-								                    <td>Nombre</td>
-								                    <td>Presentación</td>
-								                    <td>Cantidad</td>
-								                </tr>
-								            </thead>
-								            <tbody>
-								            	<tr>
-								                	<td></td>
-								                	<td></td>
-								                	<td></td>
-								            	</tr>
-						            		</tbody>
-						            	</table>
-				            		</td>
-				            	</tr>
-				            	<tr>
-				                	<td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-				                	<td>0011</td>
-				                	<td>Tutetamimoso S.A.</td>
-				                	<td>0,59</td>
-				                	<td>Auil Jorge Gilberto</td>
-				            	</tr>
-				            	<tr>
-				            		<td>
-									    <table class="table table-bordered table-striped">
-								            <thead>
-								                <tr class="info">
-								                    <td>Nombre</td>
-								                    <td>Presentación</td>
-								                    <td>Cantidad</td>
-								                </tr>
-								            </thead>
-								            <tbody>
-								            	<tr>
-								                	<td></td>
-								                	<td></td>
-								                	<td></td>
-								            	</tr>
-						            		</tbody>
-						            	</table>
-				            		</td>
-				            	</tr>
-		            		</tbody>
-		            	</table>
-            	</tr>
-            </tbody>
+						<?php #endforeach ?>
 
-    	</table>
-    </div>
+							<tr>
+            		<td colspan="5">
+									<div class="span12">
+										<label class="control-label" for="inputobservaciones">Observaciones: </label>
+										<textarea rows="3"></textarea>
+									</div>
+
+									<br>
+
+									<div class="span2">
+										<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Productos</label>
+									</div>
+									
+									<div class="span6">
+										<label class="radio"><input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Ordenes de Compra</label>
+									</div>
+
+									<h5>Productos</h5>
+
+									<table class="table table-bordered table-striped">
+
+										<thead>
+											<tr class="info">
+												<td>Nombre</td>
+												<td>Presentación</td>
+												<td>Cantidad</td>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+										</tbody>
+
+									</table>
+
+									<h5>Ordenes de compra</h5>
+
+									<table class="table table-bordered table-striped">
+
+										<thead>
+											<tr class="info">
+												<td></td>
+												<td>Nro O.C.</td>
+												<td>Proveedor</td>
+												<td>Total</td>
+												<td>Usuario</td>
+											</tr>
+										</thead>
+
+										<tbody>
+											<tr>
+												<td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
+												<td>0010</td>
+												<td>Chanchito S.A.</td>
+												<td>13,69</td>
+												<td>Auil Jorge Gilberto</td>
+											</tr>
+											<tr>
+												<td colspan="5">
+
+													<table class="table table-bordered table-striped">
+
+														<thead>
+															<tr class="info">
+																<td>Nombre</td>
+																<td>Presentación</td>
+																<td>Cantidad</td>
+															</tr>
+														</thead>
+
+														<tbody>
+															<tr>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+														</tbody>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
+													<td>0011</td>
+													<td>Tutetamimoso S.A.</td>
+													<td>0,59</td>
+													<td>Auil Jorge Gilberto</td>
+											</tr>
+											<tr>
+												<td colspan="5">
+
+													<table class="table table-bordered table-striped">
+
+														<thead>
+															<tr class="info">
+																<td>Nombre</td>
+																<td>Presentación</td>
+																<td>Cantidad</td>
+															</tr>
+														</thead>
+
+														<tbody>
+															<tr>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+														</tbody>
+
+													</table>
+												</td>
+											</tr>
+										</tbody>
+
+									</table>
+								</tr>
+							</tbody>
+
+						</table>
+
+	</div>
 </div>
 
-                               

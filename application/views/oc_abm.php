@@ -39,7 +39,7 @@
                     <td>Anonimo</td>
                 </tr>
                 <tr>
-                    <td>
+                    <td colspan="6">
                         <table class="table table-striped">
                             <thead>
                                 <tr class="info">
@@ -150,7 +150,7 @@
                     <td>Anonimo</td>
                 </tr>
                 <tr>
-                    <td>
+                    <td colspan="6">
                         <table class="table table-striped">
                             <thead>
                                 <tr class="info">
