@@ -36,19 +36,18 @@
   <div class="row">
     <div class="span4">
       <div class="control-group">
-        <label class="control-label" for="inputFechaVencimiento">Fecha de Venc:</label>
+        <label class="control-label" for="inputFechaVencimiento">Oficina:</label>
         <div class="controls">
           <div class="input-append">
-            <input class="span2" id="inputFechaVencimiento" size="16" type="text"><span class="add-on"><i class="icon-calendar"></i></span>
+            <input type="text" id="inputEstado" placeholder="" disabled="disabled">
           </div>
         </div>
       </div>
     </div>
     <div class="span4">
       <div class="control-group">
-        <label class="control-label" for="inputOficina">Oficina:</label>
+        <label class="control-label" for="inputOficina"></label>
           <div class="controls">
-            <input type="text" id="inputEstado" placeholder="" disabled="disabled">
           </div>
         </div>
       </div>
