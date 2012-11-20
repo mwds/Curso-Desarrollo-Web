@@ -5,16 +5,13 @@ class Pedidos_model extends CI_Model {
 	{
 		$this->load->database();
 	}
-	
-	public function get_pedidos($pedido_id = NULL)
+
+	public function get_pedidos()
 	{
-		if ($pedido_id === NULL)
-		{
-			$query = $this->db->get('pedidos_test');
-			return $query->result_array();
-		}
-		
-		$query = $this->db->get_where('pedidos_test', array('pedidos_id' => $pedido_id));
-		return $query->row_array();
+		$this->db->select('*')->from('pedidos')->join('estados', 'pedidos.estado_id = estados.estado_id')->order_by('pedido_fecha', 'desc');
+
+		$query = $this->db->get();
+		return $query->result_array();
 	}
-}	
+
+}

@@ -8,7 +8,7 @@
 				<label class="control-label" for="inputNroPedido">Nro. Pedido:</label>
 				<div class="controls">
 					<input type="text" id="inputNroPedido" placeholder="Nro Pedido">
-				</div>		
+				</div>
 			</div>
 		</form>
 	</div>
@@ -18,7 +18,7 @@
 				<label class="control-label" for="inputNroExpediente">Nro. Expediente:</label>
 				<div class="controls">
 					<input type="text" id="inputNroExpediente" placeholder="Nro Expediente">
-				</div>		
+				</div>
 			</div>
 		</form>
 	</div>
@@ -37,9 +37,9 @@
 						<option>Iniciada</option>
 						<option>Recepcionada</option>
 						<option>Revisada</option>
-						<option>Todos</option>						
-					</select>					
-				</div>		
+						<option>Todos</option>
+					</select>
+				</div>
 			</div>
 		</form>
 	</div>
@@ -47,50 +47,49 @@
 <div class="row">
 	<div class="span12">
 		<div class="pagination">
-          	<ul>
-	            <li><a href="#">Prev</a></li>
-	            <li><a href="#">1</a></li>
-	            <li><a href="#">2</a></li>
-	            <li><a href="#">3</a></li>
-	            <li><a href="#">4</a></li>
-	            <li><a href="#">Next</a></li>
-	        </ul>
-        </div>
-    </div>
+						<ul>
+							<li><a href="#">Prev</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">Next</a></li>
+					</ul>
+				</div>
+		</div>
 </div>
 <div class="row">
-    <div class="span12">
-        <table class="table table-bordered table-striped">
+		<div class="span12">
+				<table class="table table-bordered table-striped">
 
-            <thead>
-                <tr class="info">
-                    <td></td>
-                    <td>Nro. Ped.</td>
-                    <td>Fec. Carga</td>
-                    <td>Fec. Vencimiento</td>
-                    <td>Estado</td>
-                </tr>
-            </thead>
+						<thead>
+								<tr class="info">
+										<td></td>
+										<td>Nro. Ped.</td>
+										<td>Fec. Carga</td>
+										<td>Estado</td>
+								</tr>
+						</thead>
 
-            <tbody>
+						<tbody>
 
-        		<?php #foreach ($pedidos as $pedidos_item): ?>
-
-	            <tr>
-	                <td><button class="btn" type="button"><i class="icon-arrow-down"></i></button></td>
-	                <td><?php #echo $pedidos_item['pedido_id'] ?></td>
-	                <td><?php #echo $pedidos_item['pedido_name'] ?></td>
-	                <td><?php #echo $pedidos_item['pedido_estado'] ?></td>
-	                <td><a href="pedidos/<?php #echo $pedidos_item['pedido_id'] ?>">Ver Pedido</a></td>
-	            </tr>
-                
-						<?php #endforeach ?>
+						<?php foreach ($pedidos as $pedidos_item): ?>
 
 							<tr>
-            		<td colspan="5">
+									<td>
+										<a class="btn" href="pedidos/<?php echo $pedidos_item['pedido_id'] ?>">
+											<i class="icon-arrow-down" title="Ver Pedido"></i>
+										</a>
+									</td>
+									<td><?php echo $pedidos_item['pedido_id'] ?></td>
+									<td><?php echo $pedidos_item['pedido_fecha'] ?></td>
+									<td><?php echo $pedidos_item['estado_nombre'] ?></td>
+							</tr>
+							<tr>
+								<td colspan="4">
 									<div class="span12">
 										<label class="control-label" for="inputobservaciones">Observaciones: </label>
-										<textarea rows="3"></textarea>
+										<textarea rows="3"><?php echo $pedidos_item['pedido_descripcion'] ?></textarea>
 									</div>
 
 									<br>
@@ -116,11 +115,17 @@
 										</thead>
 
 										<tbody>
+
+											<?php foreach ($productos as $producto): ?>
+											
 											<tr>
-												<td></td>
-												<td></td>
-												<td></td>
+												<td><?php echo $producto['producto_nombre'] ?></td>
+												<td><?php #echo $producto['pedido_detalle_cantidad'] ?></td>
+												<td><?php echo $producto['pedido_detalle_cantidad'] ?></td>
 											</tr>
+
+											<?php endforeach ?>
+
 										</tbody>
 
 									</table>
@@ -204,11 +209,28 @@
 										</tbody>
 
 									</table>
-								</tr>
-							</tbody>
 
-						</table>
+								</tr>
+
+						<?php endforeach ?>
+
+			</tbody>
+
+		</table>
 
 	</div>
 </div>
-
+<div class="row">
+	<div class="span12">
+		<div class="pagination">
+				<ul>
+					<li><a href="#">Prev</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">Next</a></li>
+				</ul>
+			</div>
+		</div>
+</div>
